@@ -40,3 +40,15 @@ Utilizamos el siguiente comando:
        docker run -d --name asir_httpd -p 8000:80 -v "$PWD/htdocs:/usr/local/apache2/htdocs/" httpd
 
 ![Alt text](images/Screenshot_20240410_184058.png)
+
+## 5.Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
+
+Creamos el html dentro de la carpeta htdocs:
+
+![Alt text](images/Screenshot_20240410_184416.png)
+
+
+
+Y comprobamos que funciona escribiendo localhost:8000 en el navegador:
+
+![Alt text](images/Screenshot_20240410_184521.png)
