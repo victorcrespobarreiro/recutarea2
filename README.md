@@ -52,3 +52,17 @@ Creamos el html dentro de la carpeta htdocs:
 Y comprobamos que funciona escribiendo localhost:8000 en el navegador:
 
 ![Alt text](images/Screenshot_20240410_184521.png)
+
+## 6.Crea un contenedor 'asir_web1' que use este mismo directorio para 'htdocs' y el puerto 8000.
+
+
+
+
+Creamos el contenedor 'asir_web1' con:
+
+
+
+
+       docker run -d --name asir_web1 -p 8000:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd
+
+![Alt text](images/Screenshot_20240410_185055.png)
