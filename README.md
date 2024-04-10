@@ -73,3 +73,17 @@ Html creado en visual code studio:
 
 
 ![Alt text](images/Screenshot_20240410_185432.png)
+
+## 8.Crea otro contenedor 'asir_web2' con el mismo directorio y a otro puerto, por ejemplo 9080.
+
+
+
+
+Creamos otro contenedor con el puerto 9080 con el comando:
+
+
+
+
+       docker run -d --name asir_web2 -p 9080:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd
+
+![Alt text](images/Screenshot_20240410_185922.png)
