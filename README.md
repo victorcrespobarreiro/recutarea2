@@ -87,3 +87,16 @@ Creamos otro contenedor con el puerto 9080 con el comando:
        docker run -d --name asir_web2 -p 9080:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd
 
 ![Alt text](images/Screenshot_20240410_185922.png)
+
+## 9 y 10. Comprueba que los dos servidores muestren la misma página.
+
+Comprobamos que muestren el mismo "hola mundo" poniendo en el navegador:
+
+         localhost:8000
+
+![Alt text](images/Screenshot_20240410_190158.png)
+
+
+   localhost:9080
+
+![Alt text](images/Screenshot_20240410_190243.png)
