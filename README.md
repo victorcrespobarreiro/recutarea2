@@ -22,3 +22,13 @@ El contenedor se crea con:
       docker run -d --name asir_httpd httpd
 
 ![Alt text](images/Screenshot_20240410_183450.png)
+
+## 3.Mapea el puerto 80 del contenedor con el puerto 8000 de tu máquina.
+
+
+Utilizamos el comando:
+
+
+       docker run -d --name asir_httpd -p 8000:80 httpd
+
+![Alt text](images/Screenshot_20240410_183829.png)
