@@ -66,3 +66,10 @@ Creamos el contenedor 'asir_web1' con:
        docker run -d --name asir_web1 -p 8000:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd
 
 ![Alt text](images/Screenshot_20240410_185055.png)
+
+## 7.Utiliza Code para hacer un hola mundo en html.
+
+Html creado en visual code studio:
+
+
+![Alt text](images/Screenshot_20240410_185432.png)
