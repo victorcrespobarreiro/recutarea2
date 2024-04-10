@@ -32,3 +32,11 @@ Utilizamos el comando:
        docker run -d --name asir_httpd -p 8000:80 httpd
 
 ![Alt text](images/Screenshot_20240410_183829.png)
+
+## 4.Utiliza bind mount para que el directorio del apache2 'htdocs' este montado un directorio que tu elijas.
+
+Utilizamos el siguiente comando:
+
+       docker run -d --name asir_httpd -p 8000:80 -v "$PWD/htdocs:/usr/local/apache2/htdocs/" httpd
+
+![Alt text](images/Screenshot_20240410_184058.png)
